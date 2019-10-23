@@ -1,0 +1,526 @@
+PUT http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{userName: 'gyy1234567',orderList:[{productId:"13",productName:"daisy",salePrice:18,productNum:3,productImage:"image/daisy",checked:"1"}]}
+
+<> 2019-10-28T014420.400.html
+
+###
+
+PUT http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{userName: 'gyy1234567',orderList:[{productId:"13",productName:"daisy",salePrice:18,productNum:3,productImage:"image/daisy",checked:"1"}]}
+
+###
+
+GET http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T013316.200.json
+
+###
+
+GET http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+DELETE http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+DELETE http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+DELETE http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T011942.200.json
+
+###
+
+DELETE http://localhost:3000/admin/delete/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T011915.404.html
+
+###
+
+DELETE http://localhost:3000/admin/delete/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+GET http://localhost:3000/admin/delete/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+GET http://localhost:3000/admin/delete/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+GET http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T011223.200.json
+
+###
+
+GET http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T010827.200.json
+
+###
+
+GET http://localhost:3000/admin/order/123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+###
+
+GET http://localhost:3000/admin/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T123801.200.json
+
+###
+
+GET http://localhost:3000/admin/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T123751.200.json
+
+###
+
+GET http://localhost:3000/admin/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-28T123548.200.json
+
+###
+
+GET http://localhost:3000/admin/product/5db529b0b2996352b08e6cde
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-27T012943.200.json
+
+###
+
+GET http://localhost:3000/admin/product/5db529b0b2996352b08e6cde
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-27T012622.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy123","userPwd":"123456"}
+
+<> 2019-10-27T012614.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T012538.200.json
+
+###
+
+GET http://localhost:3000/admin/product/5db529b0b2996352b08e6cde
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T012459.200.json
+
+###
+
+GET http://localhost:3000/user/checkLogin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T115155.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T115135.200.json
+
+###
+
+POST http://localhost:3000/user/addCart
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productId":"11"}
+
+<> 2019-10-27T115056.200.json
+
+###
+
+POST http://localhost:3000/user/addCart
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productId":"11"}
+
+<> 2019-10-27T115051.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T114851.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+###
+
+POST http://localhost:3000/admin/product
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T114410.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T114329.200.json
+
+###
+
+POST http://localhost:3000/admin/project
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T114033.200.json
+
+###
+
+POST http://localhost:3000/admin/project
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T113651.200.json
+
+###
+
+POST http://localhost:3000/admin/project
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T113645.200.json
+
+###
+
+POST http://localhost:3000/admin/project
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T113605.200.json
+
+###
+
+POST http://localhost:3000/admin/project
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T113513.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T113023.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T112823.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T112012.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T111952.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T111950.200.json
+
+###
+
+POST http://localhost:3000/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"gyy","userPwd":"123"}
+
+<> 2019-10-27T111757.200.json
+
+###
+
+POST http://localhost:3000/admin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productId":"11","productName":"rose","salePrice":11,"productNum":11,"productImage":"dfsf/ss"}
+
+<> 2019-10-27T111227.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"11ee11","userPwd":"11ee11"}
+
+<> 2019-10-26T113956.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"1111","userPwd":"1111"}
+
+<> 2019-10-26T113945.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"1111","userPwd":"1111"}
+
+<> 2019-10-26T113941.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"1111","userPwd":"1111"}
+
+<> 2019-10-26T113840.200.json
+
+###
+
+POST http://localhost:3000/user/register
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"userName":"1111","userPwd":"1111"}
+
+<> 2019-10-26T113806.404.html
+
+###
+

@@ -1,0 +1,12 @@
+{
+  "message": "Product Added!",
+  "data": {
+    "_id": "5db5128a79c86443e09880dc",
+    "productId": "11",
+    "productName": "rose",
+    "salePrice": 11,
+    "productNum": 11,
+    "productImage": "dfsf/ss",
+    "__v": 0
+  }
+}

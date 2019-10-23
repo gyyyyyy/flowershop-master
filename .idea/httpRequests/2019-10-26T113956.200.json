@@ -1,0 +1,11 @@
+{
+  "isSuccess": true,
+  "message": "Registered successfully",
+  "data": {
+    "isAdmin": false,
+    "_id": "5db3c00ce6d6613bb802f927",
+    "userName": "11ee11",
+    "userPwd": "11ee11",
+    "__v": 0
+  }
+}
