@@ -59,6 +59,8 @@ Design the RESTful API for the shop
 ## Persistence Approach
 - App:
 The whole project is deployed to [Heroku](https://www.heroku.com).
+https://flowershop-master.herokuapp.com/ 
+https://git.heroku.com/flowershop-master.git
 - MongoDB:
 The MongoDB is deployed by using MongoAtlas
 - Authentication:
